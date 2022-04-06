@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+}
+.counter{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.btn{
+    cursor: pointer;
+    padding: 0.675rem;
+    display: inline-block;
+    transition: all 0.3s linear;
+    border-radius: 9rem;
+
+}
+
+.btn:hover{
+    color: whitesmoke;
+    background-color: black ;
+}
+#value{
+    font-size: 5rem;
+    font-weight: bold;
+}
